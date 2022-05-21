@@ -43,7 +43,6 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Home Page */
 #content {
   background-color: rgba(1, 1, 1, 0.6);
   width: 100vw;
@@ -51,6 +50,7 @@ nav ul li a:hover {
   padding-top: 20%;
 }
 
+/* Home Page */
 #main {
   background-color: white;
 }
@@ -66,6 +66,28 @@ nav ul li a:hover {
 #mainContainer p {
   margin: 15px 0;
   font-size: 1.2rem;
+}
+
+/* Menu Page */
+#menu {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 15%;
+}
+
+#menu img {
+  align-self: center;
+}
+
+#menuItem {
+  border-bottom: 3px dotted #111;
+  margin: 35px 0;
+  padding-bottom: 10px;
+}
+
+#menuItem div {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Footer */
