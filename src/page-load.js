@@ -1,3 +1,4 @@
+import { loadAbout } from './about';
 import { loadHome } from './home';
 import { loadMenu } from './menu';
 
@@ -23,6 +24,7 @@ function loadMain() {
   navAbout.innerHTML = '<a href="#">About</a>';
   navAbout.addEventListener('click', () => {
     clearMain();
+    loadAbout();
   });
 
   nav.appendChild(navUl);
