@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+* {
+  font-family: 'Playfair Display', serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('img/background.jpeg');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-attachment: fixed;
+}
+
+/* Navbar */
+nav {
+  background-color:rgba(1, 1, 1, 0.6);
+  position: fixed;
+  width: 100vw;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 35px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Home Page */
+#content {
+  background-color: rgba(1, 1, 1, 0.6);
+  width: 100vw;
+  height: 100vh;
+  padding-top: 20%;
+}
+
+#main {
+  background-color: white;
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 15%;
+  text-align: center;
+}
+
+#mainContainer p {
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+
+/* Footer */
+#footer {
+  background-color: rgb(16, 16, 16);
+  width: 100vw;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 35px 0;
+}
+
+#footer ul li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+#footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#footer ul li a:hover {
+  text-decoration: underline;
+}
